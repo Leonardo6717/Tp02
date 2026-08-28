@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF8FB"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <ImageButton
+        android:id="@+id/btnVoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Voltar"
+        android:src="@android:drawable/ic_media_previous" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+    <TextView
+        android:id="@+id/txtTituloTela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Detalhes do Livro"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Título:"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/txtAutorLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor:"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
